@@ -113,6 +113,7 @@ public class Home extends AppCompatActivity {
             Button boton = new Button(this);
             boton.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT));
             boton.setText("Modulo: "+modulo.getModulo() + " Descripcion: " + modulo.getDescripcion());
+            boton.getBackground().setAlpha(204);
             boton.setId(modulo.getId());
 
             //Asignamos listener al boton
@@ -136,5 +137,10 @@ public class Home extends AppCompatActivity {
             i.putExtras(bundle);
             startActivity(i);
         }
+    }
+
+    public void goNavegar(View view){
+        Intent i = new Intent(this, Navegar.class);
+        startActivity(i);
     }
 }

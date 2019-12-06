@@ -6,6 +6,7 @@ import androidx.core.content.ContextCompat;
 
 import android.Manifest;
 import android.content.ContentValues;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.database.sqlite.SQLiteDatabase;
 import android.media.MediaPlayer;
@@ -126,6 +127,9 @@ public class AltaTarea extends AppCompatActivity {
                 limpiar();// Limpiamos los campos de texto
 
                 Toast.makeText(this, "Registro exitoso " + a, Toast.LENGTH_SHORT).show();
+
+                Intent i = new Intent(this, Home.class);
+                startActivity(i);
             } catch (Exception e) {
                 Log.d("Error: ", e.toString());
             }

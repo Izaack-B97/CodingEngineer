@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".Registro">
 
     <LinearLayout
@@ -70,6 +71,7 @@
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="63dp"
+            android:alpha="0.60"
             android:onClick="tomarFoto"
             android:text="Foto" />
 
@@ -77,6 +79,7 @@
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="61dp"
+            android:alpha="0.60"
             android:onClick="Rigistrarse"
             android:text="Registrar" />
 

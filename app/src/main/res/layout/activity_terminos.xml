@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     android:onClick="goHome"
     tools:context=".Terminos">
 
@@ -49,7 +50,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="673dp"
-                android:text='El botón "ver" para la parte de "como usar" muestra la descripción del trabajo y su funcionamiento. El botón de "Ver" para la parte "Ver registro" permite ver los registros que fueron guardados. El botón "Crear" para la parte de "Crear registro" te permite generar un registro con valores en blanco para ser rellenados. El botón "Desconectar" para la parte de "Cerrar Sesión" guarda los datos y deja cambiar de usuario si así se desea. El botón "ver" para la parte de "como usar" muestra la descripción del trabajo y su funcionamiento. El botón de "Ver" para la parte "Ver registro" permite ver los registros que fueron guardados. El botón "Crear" para la parte de "Crear registro" te permite generar un registro con valores en blanco para ser rellenados. El botón "Desconectar" para la parte de "Cerrar Sesión" guarda los datos y deja cambiar de usuario si así se desea.'
+                android:text="Navegar El boton navegar le permitira acceder al navegador de google y buscar informacion extra para lo que desee relacionado con la ingenieria de software 	 Agregar El boton agregar le abrir la vista de registo 	Campo modulo: Va el nombre del modulo que este trabajando 	Campo comienzo:  es la hora que comenzo el modulo 	Campo final: Hora a la que termino dicho modulo 	Campo defectos: Va la tarea que le quito tiempo del modulo y el tiempo que duro 	Campo tiempo: Es el total del tiempo que duro el modulo 	Campo encargado: Nombre de encargado o encargados que se ocuparon en dicho modulo 	Campo descripcion: Menciona en que consiste la tarea a trabajar 	 	Boton grabar detalles: Graba comentarios extras 	Reproducir: Reproduce los comentarios extras 	Registrar: Guarda el modulo  Click en boton modulo 	Abre una vista con la informacion de dicho modulo 	El switch activo: Cambia el estado del modulo 	El boton reproducir detalles reproduce el historial de comentarios 	Barra: Solo modifica el volumen de los detalles en la grabacion 	Compartir: Enviar el modulo a un amigo mediante otras aplicaciones con toda su informacion completa  Acceder 	Solo loggea al usuario Registrar 	Lo manda a la vista registro de usuarios y llena los campos correspondientes 	 Espero disfrute de la aplicacion CodingEnginer, cualquier duda o aclaracion comuniquese con nosotros mediante el correo codingeinginer@gmail.com"
                 android:textSize="20dp" />
 
             <Button
@@ -58,6 +59,8 @@
                 android:layout_height="67dp"
                 android:layout_gravity="end"
                 android:layout_marginTop="10dp"
+                android:alpha="0.70"
+                android:hint="0.60"
                 android:onClick="goHome"
                 android:text="Aceptar y continuar" />
         </LinearLayout>

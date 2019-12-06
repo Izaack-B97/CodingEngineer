@@ -94,6 +94,9 @@ public class Registro extends AppCompatActivity {
                         limpiar();// Limpiamos los campos de texto
 
                         Toast.makeText(this, "Registro exitoso" + a, Toast.LENGTH_SHORT).show();
+
+                        Intent i = new Intent(this, MainActivity.class);
+                        startActivity(i);
                     } else {
                         Toast.makeText(this, "El usuario o la contraseña no coinciden", Toast.LENGTH_SHORT).show();
                     }

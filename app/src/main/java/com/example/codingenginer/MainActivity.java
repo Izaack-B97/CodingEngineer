@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 if (fila.moveToNext()) {//Si encuentra el registro se posiciona en la primera fila
 
                     if (correo.compareTo(fila.getString(1)) == 0 && password.compareTo(fila.getString(2)) == 0) {
-                        Toast.makeText(this, "Loggeado", Toast.LENGTH_LONG).show();
+                        Toast.makeText(this, "Bienvenido " + fila.getString(0), Toast.LENGTH_LONG).show();
 
                         Bundle bundle = new Bundle();
                         bundle.putString("nombre", fila.getString(0));
@@ -55,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
 
                         startActivity(i);
                         database.close();
+                    } else {
+                        Toast.makeText(this, "Correo o contraseña incorrectos", Toast.LENGTH_LONG).show();
                     }
                 }
             } catch (Exception e) {

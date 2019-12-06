@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".AltaTarea">
 
     <ScrollView
@@ -91,6 +92,7 @@
                 android:id="@+id/btnGrabacion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:alpha="0.80"
                 android:onClick="grabar"
                 android:text="Grabar detalles" />
 
@@ -98,6 +100,7 @@
                 android:id="@+id/button9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:alpha="0.80"
                 android:onClick="reproducir"
                 android:text="Reproducir" />
 
@@ -105,6 +108,7 @@
                 android:id="@+id/button8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:alpha="0.80"
                 android:onClick="registrar"
                 android:text="Registrar" />
         </LinearLayout>
