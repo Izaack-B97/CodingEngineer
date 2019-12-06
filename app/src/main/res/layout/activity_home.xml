@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="consulta"
     tools:context=".Home">
 
 
@@ -19,15 +20,10 @@
         app:layout_constraintVertical_bias="0.655">
 
         <LinearLayout
+            android:id="@+id/layout_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <ListView
-                android:id="@+id/listModulos"
-                android:layout_width="match_parent"
-                android:layout_height="339dp" />
-        </LinearLayout>
+            android:orientation="vertical" />
     </ScrollView>
 
     <LinearLayout

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoModulo">
+
+    <ToggleButton
+        android:id="@+id/toggleButton3"
+        android:layout_width="71dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="88dp"
+        android:text="ToggleButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="339dp"
+        android:layout_height="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:ems="10"
+                android:hint="Modulo"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText15"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:ems="10"
+                android:hint="Comienzo"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText16"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:ems="10"
+                android:hint="Final"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText17"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:ems="10"
+                android:hint="Defectos"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText18"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:ems="10"
+                android:hint="Tiempo"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText19"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:ems="10"
+                android:hint="Encargado "
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText21"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Descripcion"
+                android:inputType="textMultiLine" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Activo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="171dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="28dp"
+        android:text="Modulo"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/switch1"
+        app:layout_constraintHorizontal_bias="0.174"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="170dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="36dp"
+        android:text="Compartir Modulo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reproducir detalles"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toggleButton3"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.167" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

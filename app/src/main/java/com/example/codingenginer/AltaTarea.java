@@ -137,7 +137,7 @@ public class AltaTarea extends AppCompatActivity {
     private void limpiar() {
 
         btnGrabacion.setText("");
-        txtModulo.setText();
+        txtModulo.setText("");
         txtComienzo.setText("");
         txtFinal.setText("");
         txtDefectos.setText("");

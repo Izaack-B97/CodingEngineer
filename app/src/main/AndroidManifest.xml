@@ -2,9 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.codingenginer">
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <uses-feature
         android:name="android.hardware.camera2"
@@ -17,7 +16,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AltaTarea"></activity>
+        <activity android:name=".InfoModulo"></activity>
+        <activity android:name=".AltaTarea" />
         <activity android:name=".Home" />
         <activity android:name=".Terminos" />
         <activity android:name=".Registro" />
