@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="347dp"
+        android:layout_height="577dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556">
+
+        <EditText
+            android:id="@+id/txtNombreRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtApellidosRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Apellidos"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtCorreoRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Correo electronico"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtConfirmarCorreoRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Confirmar correo electronico"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtContraseniaRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/txtConfirmarContraseniaRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Confirmar contraseña"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:onClick="tomarFoto"
+            android:text="Foto" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:onClick="Rigistrarse"
+            android:text="Registrar" />
+
+        <ImageView
+            android:id="@+id/ivPerfil"
+            android:layout_width="88dp"
+            android:layout_height="84dp"
+            android:layout_gravity="center_horizontal"
+            tools:srcCompat="@tools:sample/avatars[0]" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
