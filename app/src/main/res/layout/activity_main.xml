@@ -77,7 +77,7 @@
         android:id="@+id/textView6"
         android:layout_width="267dp"
         android:layout_height="49dp"
-        android:text="Coding Einginer"
+        android:text=" "
         android:textColor="@android:color/white"
         android:textSize="35dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
